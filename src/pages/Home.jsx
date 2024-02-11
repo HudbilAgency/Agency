@@ -668,9 +668,11 @@ const Home = () => {
       <div className="pge-2 bg-[#f2f2f2] flex overflow-hidden py-12 sm:py-0 px-4 lg:px-8">
         <div className="bg-white rounded-3xl shadow-md w-full xl:w-[90%] mx-auto p-4 sm:p-6 md:flex md:justify-between md:gap-6 lg:gap-8 xl:gap-10 2xl:gap-12">
           <div className="w-full md:w-1/2 px-2 sm:px-4 mb-6">
-            <button className="w-fit h-12 rounded-full bg-white flex items-center justify-center text-black text-lg px-4 gap-2 shadow-md hover:bg-[#fcab64]">
-              Who We Are
-            </button>
+            <Link to="/page1">
+              <button className="w-fit h-12 rounded-full bg-white flex items-center justify-center text-black text-lg px-4 gap-2 shadow-md hover:bg-[#fcab64]">
+                Who We Are
+              </button>
+            </Link>
             <h1
               ref={titleRef}
               className="font-poppins font-bold text-[#df2323] text-4xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl my-6 md:my-8 lg:my-10 xl:my-12"
@@ -708,13 +710,13 @@ const Home = () => {
                         {content[index].pContent}
                       </p>
                       <Link to="/our-brand">
-                      <button className="rounded-full bg-white flex items-center justify-center text-black text-lg gap-2 mt-0  px-6 py-2 sm:py-2">
-                        Learn more{" "}
-                        <FontAwesomeIcon
-                          icon={faArrowRight}
-                          className="text-black text-1.5rem ml-2"
-                        />
-                      </button>
+                        <button className="rounded-full bg-white flex items-center justify-center text-black text-lg gap-2 mt-0  px-6 py-2 sm:py-2">
+                          Learn more{" "}
+                          <FontAwesomeIcon
+                            icon={faArrowRight}
+                            className="text-black text-1.5rem ml-2"
+                          />
+                        </button>
                       </Link>
                       <div className="mt-4">
                         <img src={content[index].imge} alt="line design" />
