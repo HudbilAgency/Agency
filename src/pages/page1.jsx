@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import NavbarAndFullscreenMenu from "../components/menu/menu";
 import Footer from "../components/footer/footer";
-import { Link } from "react-router-dom";
+import { FaCheckCircle } from "react-icons/fa";
+import axios from "axios";
 
 const Page1 = () => {
 
@@ -620,7 +621,7 @@ const Page1 = () => {
         </div>
       </div>
 
-      <div className="hidden xl:flex items-center px-6 sm:px-28 lg:px-48 2xl:px-96 pt-10 xl:pb-96 2xl:pb-48">
+      <div className="hidden xl:flex items-center px-6 sm:px-28 lg:px-48 2xl:px-96 pt-10 xl:pb-52 2xl:pb-48">
         <div className="relative inline-block 2xl:ml-[10%] w-1/2 xl:w-3/5">
           <img
             src="./p1-img1.png"
@@ -686,7 +687,7 @@ const Page1 = () => {
         </div>
       </div>
 
-      <div className="px-6 sm:px-28 lg:px-48 2xl:px-96 sm:py-16">
+      <div className="px-6 sm:px-28 lg:px-48 2xl:px-96 sm:py-10 xl:py-16">
         <h1 className="text-5xl text-left leading-[6rem] text-[#DF2323] font-black">
           FAQ's
         </h1>

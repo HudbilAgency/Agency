@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import NavbarAndFullscreenMenu from "../components/menu/menu";
 import Footer from "../components/footer/footer";
-import { Link } from "react-router-dom";
 
 const OurBrand = () => {
   return (
