@@ -1,0 +1,72 @@
+.profile-details:hover {
+  background-color: #fcab64;
+}
+
+.profile-details:hover .name {
+  color: white;
+}
+
+.profile-details:hover .svg-container {
+  opacity: 1;
+}
+
+.profile-details:hover .svg-container {
+  opacity: 1;
+  transform: translate(3px, -3px); /* Adjust values as needed */
+}
+
+.svg-container {
+  transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+}
+
+.hidden-div {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: white;
+}
+
+.slide-up {
+  animation: slideUp 0.2s ease-in-out forwards;
+}
+
+.slide-down {
+  animation: slideDown 0.2s ease-in-out forwards;
+}
+
+@keyframes slideUp {
+  0% {
+    transform: translateY(100%);
+  }
+  25% {
+    transform: translateY(75%);
+  }
+  50% {
+    transform: translateY(50%);
+  }
+  75% {
+    transform: translateY(25%);
+  }
+  100% {
+    transform: translateY(0%);
+  }
+}
+
+@keyframes slideDown {
+  0% {
+    transform: translateY(0%);
+  }
+  25% {
+    transform: translateY(25%);
+  }
+  50% {
+    transform: translateY(50%);
+  }
+  75% {
+    transform: translateY(75%);
+  }
+  100% {
+    transform: translateY(100%);
+  }
+}

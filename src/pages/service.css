@@ -1,0 +1,18 @@
+.service-pages:hover .service1{
+  background-color: #ffffff;
+  color: #df2323;
+  transition: all 0.5s ease-in-out;
+}
+.service-pages:hover .service2 {
+  color: #df2323;
+  transition: all 0.5s ease-in-out;
+}
+.service-pages:hover .service3 {
+  padding: 20px;
+  border-radius: 100%;
+  background-color: #df2323;
+  color: #ffffff;
+  transition: all 0.6s ease-in-out;
+  rotate: 45deg;
+}
+
