@@ -291,30 +291,30 @@ const Page1 = () => {
             <div className="font-bold text-[#DF2323] text-3xl leading-snug">
               Get Appealing Websites from Our Web Design Company in India
             </div>
-            <div className="font-normal text-sm leading-relaxed">
+            <div className="font-normal text-sm 2xl:text-base leading-relaxed">
               The best platform for you to get the best SEO web design services
               in India to increase your business profit.
             </div>
-            <div className="font-normal text-sm leading-relaxed">
+            <div className="font-normal text-sm 2xl:text-base leading-relaxed">
               Our SEO web design company in India has many expert web designers
               and creative web developers in India to build websites that have
               the potential to build websites that can support your
               organization.{" "}
             </div>
-            <div className="font-normal text-sm leading-relaxed">
+            <div className="font-normal text-sm 2xl:text-base leading-relaxed">
               Affordability is another reason why clients are attracted to us.
               We offer only reasonable price packages for all our clients.{" "}
             </div>
           </div>
           <div className="h-full">
             <img
-              className="sm:h-96 xl:h-80 2xl:h-64 w-full"
+              className="sm:h-96 xl:h-80 2xl:min-h-40 w-full"
               src="./p1-img.png"
               alt="seo"
             />
           </div>
         </div>
-        <div className="font-normal text-sm leading-relaxed my-4">
+        <div className="font-normal text-sm 2xl:text-base leading-relaxed my-6">
           Our best web designers in India are using cutting-edge technologies to
           complete each project efficiently and quickly. Our broad experience in
           SEO website design services in India attracted clients to outsource
@@ -691,7 +691,7 @@ const Page1 = () => {
         <h1 className="text-5xl text-left leading-[6rem] text-[#DF2323] font-black">
           FAQ's
         </h1>
-        <div className="flex flex-col gap-6 pt-10 text-lg font-normal leading tight text[#1F1F21]">
+        <div className="flex flex-col gap-6 pt-10 text-base font-normal leading tight text[#1F1F21]">
           <p>
             With over 10 years of experience in Marketing and content COLTFOX
             DIGITAL knows how to research, recommend, and deploy digital FOX
@@ -720,7 +720,7 @@ const Page1 = () => {
                 }`}
               />
               <div
-                className={`text-box font-medium text-base gap-4 leading-tight text-[#1F1F21] px-6 sm:px-8 py-4 w-full flex justify-between ${
+                className={`text-box font-medium text-base gap-4 leading-tight text-[#1F1F21] px-6 sm:px-8 py-4 w-full flex items-center justify-between ${
                   activeQuestion === id ? "bg-[#FCAB64]" : "bg-white"
                 }`}
               >
@@ -746,10 +746,10 @@ const Page1 = () => {
         <div className="font-semibold text-3xl leading-snug text-[#1F1F21]">
           Do you have a question we haven’t been able to answer?
         </div>
-        <div className="leading-9 font-normal text-lg text-[#1F1F21] mt-8">
+        <div className="leading-9 font-normal text-base text-[#1F1F21] mt-8">
           Get in touch with us and we’ll come back to you shortly.
         </div>
-        <div className="text-3xl leading-tight font-semibold text-[#1F1F21] my-8 md:my-12 lg:w-3/4 ">
+        <div className="text-3xl leading-tight font-semibold text-[#1F1F21] my-8 md:my-8 lg:w-3/4 ">
           Contact
           <form className="mt-6 md:mt-12 flex flex-col gap-2">
             <div class="flex flex-col md:flex-row gap-2 md:gap-6">
@@ -817,7 +817,7 @@ const Page1 = () => {
               <button
                 onClick={handleSubmit}
                 type="submit"
-                class="inline-flex justify-center py-2 px-10 border border-transparent shadow-sm text-lg font-medium rounded-2xl text-[#FCAB64] bg-white hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#FCAB64]"
+                class="inline-flex justify-center py-2 px-10 border border-transparent shadow-sm text-base font-medium rounded-2xl text-[#FCAB64] bg-white hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#FCAB64]"
               >
                 Submit
               </button>

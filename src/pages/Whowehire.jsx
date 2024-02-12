@@ -32,28 +32,28 @@ const Whowehire = () => {
                 <div className="text-2xl text-[#DF2323] font-semibold">
                   Hudbil - Software Develepoment
                 </div>
-                <div className="text-xs font-normal leading-6">
+                <div className="text-xs lg:text-base font-normal leading-6">
                   We specialize in creating bespoke software applications,
                   ensuring they align perfectly with your business objеctivе. As
                   a prominеnt tеch-savvy company, we develop softwarе that
                   simplifiеs complеx businеss tasks and ovеrcomеs critical
                   challеngеs.
                 </div>
-                <div className="text-xs font-normal leading-6">
+                <div className="text-xs lg:text-base font-normal leading-6">
                   Email us your resume with the cover letter at hr@hudbil.com
                 </div>
               </div>
               <div className="flex flex-col gap-6 sm:w-1/3 2xl:w-[30%] mt-2">
-                <div className="text-xs rounded-full bg-[#DF2323] text-white px-3 py-2 w-fit">
+                <div className="text-xs lg:text-base rounded-full bg-[#DF2323] text-white px-3 py-2 w-fit">
                   Hiring Positions
                 </div>
-                <div className="flex flex-col text-xs font-normal leading-6">
+                <div className="flex flex-col text-xs lg:text-base font-normal leading-6">
                   <li>Senior - UI & UX Designer </li>
                   <li>Software Developer</li>
                   <li>Back-end Developer</li>
                   <li>Front-end Developer</li>
                 </div>
-                <div className="text-xs rounded-full border border-[#DF2323] text-[#DF2323] px-3 py-2 w-fit">
+                <div className="text-xs lg:text-base rounded-full border border-[#DF2323] text-[#DF2323] px-3 py-2 w-fit">
                   Email Us Now
                 </div>
               </div>
@@ -73,7 +73,7 @@ const Whowehire = () => {
                 <div className="text-2xl text-[#DF2323] font-semibold">
                   Coltfox - Digital Marketing
                 </div>
-                <div className="text-xs font-normal leading-6">
+                <div className="text-xs lg:text-base font-normal leading-6">
                   In the design phase, we bring your vision to life. Based on
                   the insights we gained in the discovery phase, we translate
                   our ideas into visual concepts and design a user experience
@@ -85,10 +85,10 @@ const Whowehire = () => {
                 </div>
               </div>
               <div className="flex flex-col gap-6 sm:w-1/3 2xl:w-[30%] mt-2">
-                <div className="text-xs rounded-full border border-[#DF2323] text-[#DF2323] px-3 py-2 w-fit">
+                <div className="text-xs lg:text-base rounded-full border border-[#DF2323] text-[#DF2323] px-3 py-2 w-fit">
                   Service list
                 </div>
-                <div className="flex flex-col text-xs font-normal leading-6">
+                <div className="flex flex-col text-xs lg:text-base font-normal leading-6">
                   <li>Branding</li>
                   <li>Grahic design</li>
                   <li>Wireframes</li>
@@ -110,7 +110,7 @@ const Whowehire = () => {
                 <div className="text-2xl text-[#DF2323] font-semibold">
                   Kalacode
                 </div>
-                <div className="text-xs font-normal leading-6">
+                <div className="text-xs lg:text-base font-normal leading-6">
                   Once the design is approved, our team of experienced
                   developers brings it to life. Using modern frameworks and
                   technologies, we create a responsive, fast and functional
@@ -122,10 +122,10 @@ const Whowehire = () => {
                 </div>
               </div>
               <div className="flex flex-col gap-6 sm:w-1/3 2xl:w-[30%] mt-2">
-                <div className="text-xs rounded-full border border-[#DF2323] text-[#DF2323] px-3 py-2 w-fit">
+                <div className="text-xs lg:text-base rounded-full border border-[#DF2323] text-[#DF2323] px-3 py-2 w-fit">
                   Service list
                 </div>
-                <div className="flex flex-col text-xs font-normal leading-6">
+                <div className="flex flex-col text-xs lg:text-base font-normal leading-6">
                   <li>Front-end Development</li>
                   <li>Back-end Development</li>
                   <li>Database management</li>
@@ -146,7 +146,7 @@ const Whowehire = () => {
                 <div className="text-2xl text-[#DF2323] font-semibold">
                   Mausapp
                 </div>
-                <div className="text-xs font-normal leading-6">
+                <div className="text-xs lg:text-base font-normal leading-6">
                   Launching your website is just the beginning. To ensure
                   lasting success, we work with you to collect user feedback,
                   track performance, and make data-driven improvements over
@@ -159,10 +159,10 @@ const Whowehire = () => {
                 </div>
               </div>
               <div className="flex flex-col gap-6 sm:w-1/3 2xl:w-[30%] mt-2">
-                <div className="text-xs rounded-full border border-[#DF2323] text-[#DF2323] px-3 py-2 w-fit">
+                <div className="text-xs lg:text-base rounded-full border border-[#DF2323] text-[#DF2323] px-3 py-2 w-fit">
                   Service list
                 </div>
-                <div className="flex flex-col text-xs font-normal leading-6">
+                <div className="flex flex-col text-xs lg:text-base font-normal leading-6">
                   <li>Analytics and Data Analysis</li>
                   <li>Project upgrades</li>
                   <li>Content Optimization</li>
