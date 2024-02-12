@@ -710,7 +710,7 @@ const Page1 = () => {
         </div>
       </div>
 
-      <div className="px-6 sm:px-28 lg:px-48 2xl:px-96 sm:py-10 flex flex-col gap-4">
+      <div className="px-6 sm:px-28 lg:px-48 2xl:px-96 py-10 flex flex-col gap-4">
         {questions.map(({ id, question, answer }) => (
           <div key={id} className="flex flex-col">
             <div className="flex">
