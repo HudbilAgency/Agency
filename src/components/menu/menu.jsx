@@ -1525,7 +1525,7 @@ const NavbarAndFullscreenMenu = () => {
                   01
                 </span>
                 <span className="text-[#1F1F21] font-normal text-2xl sm:text-3xl leading-none">
-                  <Link to="/our-brand">Our Brand</Link>
+                  <Link to="/about-us">Our Brand</Link>
                 </span>
               </div>
               <div className="menu-2 flex flex-col sm:w-1/5 ">
