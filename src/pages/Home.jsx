@@ -642,10 +642,10 @@ const Home = () => {
             <h1 className="text-[#df2323] font-semibold text-3xl md:text-[3rem] lg:text-[4.5rem] mb-6 sm:mb-20 leading-tight">
               We help
             </h1>
-            {/* <p className="animation mb-6 sm:mb-20">
+            <p className="animation mb-6 sm:mb-20">
               <span className="head2-anm bg-[url('/yellowpaper.jpeg')] shadow-inset text-2xl md:text-[3rem] lg:text-[4.5rem] bg-cover rounded-full text-[#1f1f21] font-semibold leading-tight px-4 py-2 sm:px-8 sm:py-4"></span>
               <span className="typing-cursor"></span>
-            </p> */}
+            </p>
             <h1 className="text-[#df2323] font-semibold text-3xl md:text-[3rem] lg:text-[4.5rem] mb-6 sm:mb-20 leading-tight">
               by marketing
             </h1>
