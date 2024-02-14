@@ -1314,7 +1314,7 @@ const NavbarAndFullscreenMenu = () => {
                 backgroundBlendMode: "overlay",
               }}
             >
-              impression at your fingertips
+              Impression At Your Fingertips
             </div>
           </div>
         </div>

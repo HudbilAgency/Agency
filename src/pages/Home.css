@@ -47,6 +47,13 @@ body {
     margin-top: auto;
   }
 }
+@media screen and (min-width:481px) and (max-width: 1024px) {
+  .page9-des .slick-dots {
+    width:fit-content;
+    margin-left: auto;
+    margin-top: 80px;
+  }
+}
 .ft-slick__dots--custom {
   height: 8px;
   width: 14px;
@@ -184,7 +191,6 @@ button {
   cursor: pointer;
   justify-content: space-around;
   align-items: center;
-  border: unset;
   border-radius: 50px;
   color: #212121;
   z-index: 1;
@@ -2286,6 +2292,7 @@ button:hover::before {
 @media screen and (max-width: 540px) {
   .page8-container {
     padding-right: 0px;
+    padding-bottom: 10px;
   }
   .whattheysay-btn:hover {
     background-color: #fcab64;
@@ -2477,7 +2484,6 @@ button:hover::before {
 .sign {
   text-align: left;
   position: absolute;
-  top: 75px;
   color: #fcab64;
   font-family: "Poppins", sans-serif;
   font-weight: 700;
@@ -2565,7 +2571,6 @@ button:hover::before {
 
   .page9-des .slick-dots {
     width: fit-content;
-    margin-left: 160px;
     margin-top: auto;
   }
 
@@ -2658,8 +2663,7 @@ button:hover::before {
   height: 46px;
   font-size: 20px;
   line-height: 40px;
-  border: solid 1px #1f1f21;
-  background-color: #d9d3d3;
+  border: solid 1px #fcab64;
   border-radius: 30px;
   display: flex;
   align-items: center;
@@ -3677,6 +3681,12 @@ button:hover::before {
   }
 }
 
+@media (max-width: 540px) {
+  .page10-container{
+    padding-bottom: 10px;
+  }
+}
+
 @media (max-width: 768px) {
   .talk-btn {
     left: 0;
@@ -3833,3 +3843,4 @@ button:hover::before {
   width: 9em;
   background: #fcab64;
 }
+

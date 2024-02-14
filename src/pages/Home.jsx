@@ -627,8 +627,8 @@ const Home = () => {
             src="./expandedlogo.png"
             alt="Logo"
           />
-          <div className="impressionat mx-6 sm:mx-0 mt-6 text-[16px] sm:text-[20px] w-fit py-6 sm:py-4 px-4 text-[#012033] bg-[url('/noise.png')] bg-blend-overlay">
-            impression at your fingertips
+          <div className="impressionat mx-6 sm:mx-0 mt-6 text-[16px] sm:text-[20px] w-fit py-7 sm:py-4 px-4 text-[#012033] bg-[url('/noise.png')] bg-blend-overlay">
+            Impression At Your Fingertips
           </div>
         </div>
       )}
@@ -642,16 +642,16 @@ const Home = () => {
             <h1 className="text-[#df2323] font-semibold text-3xl md:text-[3rem] lg:text-[4.5rem] mb-6 sm:mb-20 leading-tight">
               We help
             </h1>
-            <p className="animation mb-6 sm:mb-20">
-              <span className="head2-anm bg-[url('/yellowpaper.jpeg')] text-2xl md:text-[3rem] lg:text-[4.5rem] bg-cover rounded-full text-[#1f1f21] font-semibold leading-tight px-4 py-2 sm:px-8 sm:py-4"></span>
+            {/* <p className="animation mb-6 sm:mb-20">
+              <span className="head2-anm bg-[url('/yellowpaper.jpeg')] shadow-inset text-2xl md:text-[3rem] lg:text-[4.5rem] bg-cover rounded-full text-[#1f1f21] font-semibold leading-tight px-4 py-2 sm:px-8 sm:py-4"></span>
               <span className="typing-cursor"></span>
-            </p>
+            </p> */}
             <h1 className="text-[#df2323] font-semibold text-3xl md:text-[3rem] lg:text-[4.5rem] mb-6 sm:mb-20 leading-tight">
               by marketing
             </h1>
           </div>
           <div className="flex flex-col justify-between mt-8 sm:mt-0 w-fit">
-            <button className="mt-auto mb-0 sm:mb-20 rounded-full bg-white border border-[#fcab64] flex items-center justify-center text-black text-base sm:text-lg md:text-xl px-4 py-1 gap-2 shadow-[4px_8px_19px_-3px_#fcab64] hover:bg-[#fcab64] hover:text-white transition duration-500">
+            <button className="mt-auto mb-0 sm:mb-20 rounded-full bg-white border border-[#fcab64] shadow-none flex items-center justify-center text-black text-base sm:text-lg md:text-xl px-4 py-1 gap-2 shadow-[4px_8px_19px_-3px_#fcab64] hover:bg-[#fcab64] hover:text-white transition duration-500">
               <Link
                 to="/contact-us"
                 className="flex items-center justify-center gap-2"
@@ -751,7 +751,7 @@ const Home = () => {
         </div>
 
         <div className="mt-0 md:mt-5 pl-0 lg:ml-[40%]  page3-right lg:w-[45%]">
-          <button className="aboutus bg-white border border-black flex items-center h-12 w-fit mt-12 mb-7 font-poppins font-medium text-black text-base sm:text-lg px-4 py-2 rounded-full gap-2 hover:bg-orange-400 hover:text-white hover:shadow-lg transition duration-500 ease-in-out">
+          <button className=" bg-white border border-[#1f1f21] shadow-none flex items-center h-12 w-fit mt-12 mb-7 font-poppins font-medium text-black text-base sm:text-lg px-4 py-2 rounded-full gap-2 hover:bg-orange-400 hover:text-white hover:shadow-lg transition duration-500 ease-in-out">
             About Us
           </button>
           <div className="stable-des mt-5 font-poppins text-base sm:text-lg pr-4 lg:pr-7 text-[#012033] mb-5 max-w-full lg:max-w-2xl leading-normal ">
@@ -771,7 +771,7 @@ const Home = () => {
             <img src={image[contentIndex]} alt="Line Design" />
           </div>
           <Link to="/about-us">
-            <button className="findmore-btn relative ">
+            <button className="findmore-btn shadow-inset relative ">
               Find out more
               <img src="./arr-b.png" className="page3-arr" alt="Arrow" />
             </button>
@@ -865,7 +865,7 @@ const Home = () => {
             </div>
           </content8>
           <div className="page4-line" />
-          <Link to="/our-services">
+          <Link to="/our-services" className="w-full">
             <button className="expl">
               Explore Services
               <FontAwesomeIcon
@@ -880,7 +880,7 @@ const Home = () => {
             </button>
           </Link>
         </div>
-        <div className="page4-right mt-4 px-0 lg:mt-auto lg:pb-4 lg:mr-16 h-full lg:px-8 xl:w-1/2">
+        <div className="page4-right mt-4 px-0 lg:mt-auto lg:pb-20 lg:mr-16 h-full lg:px-8 xl:w-1/2">
           <div className="changing-desof w-fit 2xl:mx-auto xl:w-fit">
             <div className="innertitl flex items-center gap-4">
               {selectedService}
@@ -931,7 +931,7 @@ const Home = () => {
       {/*page5*/}
       <div className="page5-container px-4 lg:px-20 2xl:px-0 2xl:pl-80 flex flex-col py-16 lg:py-24 overflow-hidden">
         <Link to="/what-we-did">
-          <button className="seeall-btn mt-[-42px] mb-2.5 ml-auto xl:mr-12">
+          <button className="seeall-btn shadow-none mt-[-42px] mb-2.5 ml-auto xl:mr-12">
             Case Studies <img src="./arr-w-learn.png" />
           </button>
         </Link>
@@ -955,7 +955,7 @@ const Home = () => {
                 : "")}
           </div>
           <Link to={`/${selectedBox.toLowerCase().replace(/ /g, "-")}`}>
-            <button className="viewproj-btn mt-[55%] mb-6 ml-[4%] 2xl:ml-auto 2xl:mr-12">
+            <button className="viewproj-btn shadow-inset mt-[55%] mb-6 ml-[4%] 2xl:ml-auto 2xl:mr-12">
               View Project
               <img src="./arr-w-learn.png" />
             </button>
@@ -1366,8 +1366,8 @@ const Home = () => {
                 <div className="comp-name pl-0 lg:pl-[50px] text-base sm:text-lg">
                   Roatan Real Estate
                 </div>
-                <div className="sign text-base sm:text-lg">“</div>
-                <div className="text-base sm:text-lg comp-review flex flex-col mt-16 sm:mt-8 w-fit pr-8 sm:pr-20 lg:pr-0 pl-0 lg:pl-[50px] xl:w-[35%] 2xl:w-[40%] mb-10 ml-0">
+                <div className="sign text-2xl sm:text-5xl">“</div>
+                <div className="text-base sm:text-lg comp-review flex flex-col mt-16 sm:mt-12 w-fit pr-8 sm:pr-20 lg:pr-0 pl-0 lg:pl-[50px] xl:w-[35%] 2xl:w-[40%] mb-10 ml-0">
                   Coltfox is a much needed blessing and exceeded our
                   expectations in every way. They are honest, straightforward,
                   they take care of all your needs quickly, they are reliable,
@@ -1379,8 +1379,8 @@ const Home = () => {
                 <div className="text-base sm:text-lg comp-name pl-0 lg:pl-[50px]">
                   Sterling Protective
                 </div>
-                <div className="sign text-base sm:text-lg">“</div>
-                <div className="text-base sm:text-lg comp-review flex flex-col mt-16 sm:mt-8 w-fit pr-8 sm:pr-20 lg:pr-0 pl-0 lg:pl-[50px] xl:w-[35%] 2xl:w-[40%] mb-10 ml-0">
+                <div className="sign text-2xl sm:text-5xl">“</div>
+                <div className="text-base sm:text-lg comp-review flex flex-col mt-16 sm:mt-12 w-fit pr-8 sm:pr-20 lg:pr-0 pl-0 lg:pl-[50px] xl:w-[35%] 2xl:w-[40%] mb-10 ml-0">
                   We re-did our website twice in a 12 month period. There was no
                   comparison between the first company and Coltfox.
                   Professional, Creative, Attentive to Detail, Excellent
@@ -1393,8 +1393,8 @@ const Home = () => {
                 <div className="text-base sm:text-lg comp-name pl-0 lg:pl-[50px]">
                   Gibbs Inc
                 </div>
-                <div className="sign text-base sm:text-lg">“</div>
-                <div className="text-base sm:text-lg comp-review flex flex-col mt-16 sm:mt-8 w-fit pr-8 sm:pr-20 lg:pr-0 pl-0 lg:pl-[50px] xl:w-[35%] 2xl:w-[40%] mb-10 ml-0">
+                <div className="sign text-2xl sm:text-5xl">“</div>
+                <div className="text-base sm:text-lg comp-review flex flex-col mt-16 sm:mt-12 w-fit pr-8 sm:pr-20 lg:pr-0 pl-0 lg:pl-[50px] xl:w-[35%] 2xl:w-[40%] mb-10 ml-0">
                   Coltfox has been instrumental in helping us build an
                   incredible lead generating machine through our AdWords and
                   remarketing campaigns. Working with Azrael is a pleasure; with
@@ -1406,8 +1406,8 @@ const Home = () => {
                 <div className="text-base sm:text-lg comp-name pl-0 lg:pl-[50px]">
                   JEF Techno
                 </div>
-                <div className="text-base sm:text-lg sign">“</div>
-                <div className="text-base sm:text-lg comp-review flex flex-col mt-16 sm:mt-8 w-fit pr-8 sm:pr-20 lg:pr-0 pl-0 lg:pl-[50px] xl:w-[35%] 2xl:w-[40%] mb-10 ml-0">
+                <div className="text-2xl sm:text-5xl sign">“</div>
+                <div className="text-base sm:text-lg comp-review flex flex-col mt-16 sm:mt-12 w-fit pr-8 sm:pr-20 lg:pr-0 pl-0 lg:pl-[50px] xl:w-[35%] 2xl:w-[40%] mb-10 ml-0">
                   Coltfox has been instrumental in providing excellence in
                   digital marketing. We are continuously impressed with their
                   level of service and consider them a key marketing partner in
@@ -1420,8 +1420,8 @@ const Home = () => {
                 <div className="text-base sm:text-lg comp-name pl-0 lg:pl-[50px]">
                   D-Capital Inc
                 </div>
-                <div className="text-base sm:text-lg sign">“</div>
-                <div className="text-base sm:text-lg comp-review flex flex-col mt-16 sm:mt-8 w-fit pr-8 sm:pr-20 lg:pr-0 pl-0 lg:pl-[50px] xl:w-[35%] 2xl:w-[40%] mb-10 ml-0">
+                <div className="text-2xl sm:text-5xl sign">“</div>
+                <div className="text-base sm:text-lg comp-review flex flex-col mt-16 sm:mt-12 w-fit pr-8 sm:pr-20 lg:pr-0 pl-0 lg:pl-[50px] xl:w-[35%] 2xl:w-[40%] mb-10 ml-0">
                   We enjoyed working with coltfox on our new website. The team
                   had lots of ideas to make the website look great, as well as
                   practical advice to ensure the site is both user-friendly and
@@ -1433,8 +1433,8 @@ const Home = () => {
                 <div className="text-base sm:text-lg comp-name pl-0 lg:pl-[50px]">
                   Lakshmi Corporation
                 </div>
-                <div className="text-base sm:text-lg sign">“</div>
-                <div className="text-base sm:text-lg comp-review flex flex-col mt-16 sm:mt-8 w-fit pr-8 sm:pr-20 lg:pr-0 pl-0 lg:pl-[50px] xl:w-[35%] 2xl:w-[40%] mb-10 ml-0">
+                <div className="text-2xl sm:text-5xl sign">“</div>
+                <div className="text-base sm:text-lg comp-review flex flex-col mt-16 sm:mt-12 w-fit pr-8 sm:pr-20 lg:pr-0 pl-0 lg:pl-[50px] xl:w-[35%] 2xl:w-[40%] mb-10 ml-0">
                   We have been working with Coltfox for several years and
                   continue to be impressed with their professionalism. We work
                   closely with the Coltfox team to meet our goals and
@@ -1461,7 +1461,7 @@ const Home = () => {
           <div className="page10-subtitle md:text-2xl">
             Be inspired and informed.{" "}
           </div>
-          <button className="ournews-btn  w-fit px-6 lg:mr-2">
+          <button className="ournews-btn shadow-none w-fit px-6 lg:mr-2">
             Our News
             <img src="./arr-b.png" />{" "}
           </button>
