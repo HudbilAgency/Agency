@@ -8,10 +8,10 @@ const Whowehire = () => {
       <NavbarAndFullscreenMenu />
 
       <div className="px-6 sm:px-28 lg:px-48 xl:px-60 2xl:px-96 py-6 sm:py-10">
-        <div className="text-[#DF2323] text-4xl sm:text-6xl 2xl:text-[4.5rem] sm:leading-[8rem] font-semibold">
-          <div className="leading-relaxed">
+        <div className="text-[#DF2323] text-4xl sm:text-6xl 2xl:text-[4.5rem] font-semibold">
+          <div className="leading-relaxed 2xl:leading-[8.2rem]">
             At Hudbil we Invest <br className="flex" />{" "}
-            <span className="shadow-inset text-[#1F1F21] rounded-full text-3xl sm:text-5xl 2xl:text-[4.5rem] bg-[#FCAB64] bg-[url('/noise-grey.png')] bg-blend-overlay px-8 py-1 sm:py-2">
+            <span className="shadow-inset text-[#1F1F21] rounded-full text-3xl sm:text-5xl 2xl:text-[4.1rem] bg-[#FCAB64] bg-[url('/noise-grey.png')] bg-blend-overlay px-8 py-1 sm:py-2">
               In Our People
             </span>{" "}
             to empower <br className="hidden sm:flex" /> their voices
