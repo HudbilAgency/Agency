@@ -11,7 +11,7 @@ const OurBrand = () => {
         <div className="text-[#DF2323] text-4xl sm:text-6xl 2xl:text-[4.5rem] sm:leading-[8rem] font-semibold">
           <div className="leading-relaxed">
             Process of crafting <br className="flex" />{" "}
-            <span className="shadow-inset text-[#1F1F21] rounded-full text-3xl sm:text-5xl 2xl:text-[3.6rem] bg-[#FCAB64] bg-[url('/noise-grey.png')] bg-blend-overlay px-8 py-1 sm:py-2">
+            <span className="shadow-inset text-[#1F1F21] rounded-full text-3xl sm:text-5xl 2xl:text-[4.5rem] bg-[#FCAB64] bg-[url('/noise-grey.png')] bg-blend-overlay px-8 py-1 sm:py-2">
               Memorable
             </span>{" "}
             brands and <br className="hidden sm:flex" /> by Marketing
