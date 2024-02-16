@@ -710,7 +710,7 @@ const Home = () => {
                         {content[index].pContent}
                       </p>
                       <Link to="/our-brand">
-                        <button className="rounded-full bg-white flex items-center justify-center text-black text-lg gap-2 mt-0  px-6 py-2 sm:py-2">
+                        <button className="rounded-full bg-white shadow-none border border-[#FCAB64] flex items-center justify-center text-black text-lg gap-2 mt-0  px-6 py-2 sm:py-2">
                           Learn more{" "}
                           <FontAwesomeIcon
                             icon={faArrowRight}

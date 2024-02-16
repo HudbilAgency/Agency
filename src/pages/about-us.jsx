@@ -17,7 +17,7 @@ const Who = () => {
             <NavbarAndFullscreenMenu />
             <div className="whatMakesUs mt-10 px-6 sm:px-28 lg:px-48 xl:px-64 2xl:w-3/4 sm:px-0 sm:pl-40 text-[#DF2323] text-6xl sm:text-[6rem] font-black">
                 <h1> What makes </h1>
-                <h1> Us Foxoe! </h1>
+                <h1 className='pt-8'> Us Foxoe! </h1>
                 <p className='text-base mt-6 sm:text-lg  text-black font-normal'>Coltfox is not your typical digital marketing agency. We’re a strategic marketing firm that partners with clients to move their business forward. We’re bold. We’re curious. We’re transparent Our tenacious team of proven digital marketing experts and business growth pros push the boundaries of what is possible. COLTFOX harnesses the power of data analytics to understand customer behaviours and preferences.</p>
             </div>
             <div className="right-align px-6 sm:px-0 sm:pl-28 lg:pl-48 xl:pl-64 pt-10 xl:pt-12 sm:ml-[25%]">

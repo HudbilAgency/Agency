@@ -1,3 +1,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* width and height of the scrollbar */
+::-webkit-scrollbar {
+    width: 15px;
+    height: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #d9d3d3;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #FCAB64;
+  }
