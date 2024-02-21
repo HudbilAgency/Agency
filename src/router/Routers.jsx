@@ -48,6 +48,7 @@ import Whatwedo from "../pages/what-we-do.jsx";
 import Page1 from "../pages/page1.jsx";
 import OurBrand from "../pages/our-brand.jsx";
 import Whowehire from "../pages/Whowehire.jsx";
+import Wehiring from "../pages/we-are-hiring.jsx";
 
 const Routers = () => {
   return (
@@ -98,6 +99,7 @@ const Routers = () => {
       <Route path="/page1" element={<Page1 />} />
       <Route path="/our-brand" element={<OurBrand />} />
       <Route path="/who-we-hire" element={<Whowehire />} />
+      <Route path="/we-are-hiring" element={<Wehiring />} />
     </Routes>
   );
 };
