@@ -6,7 +6,7 @@ const Whoweare = () => {
   return (
     <div>
       <div className="w-full h-screen flex fixed">
-        <div className="w-2/5 2xl:w-1/2 bg-[#D9D3D3] hidden xl:flex flex-col items-center justify-center">
+        <div className="w-2/5 2xl:w-1/2 bg-[#D9D3D3] bg-[url('/noise.png')] bg-blend-overlay hidden xl:flex flex-col items-center justify-center">
           <div className="wrap-menu-images mx-16">
             <div className="scroll-sec1 mt-8">
               <img src="./menu-slider-img1.png" className="my-5" />

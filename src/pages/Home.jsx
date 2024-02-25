@@ -349,7 +349,7 @@ const Home = () => {
       case "toolstation":
         page5Cont.style.backgroundImage = 'url("/toolstationimg.png")';
         break;
-      case "solo":
+      case "solo-expenses":
         page5Cont.style.backgroundImage = 'url("/soloimg.png")';
         break;
       case "cedevita":
@@ -948,7 +948,7 @@ const Home = () => {
                 ? "Automotive Component Manufacturers Association of India"
                 : selectedBox === "toolstation"
                 ? "Tool station launches latest catalog with deals and products"
-                : selectedBox === "solo"
+                : selectedBox === "solo-expenses"
                 ? "Solo Expenses – App promotion marketing campaign"
                 : selectedBox === "cedevita"
                 ? "Creating an intelligent and seamless experience for an NGO."
@@ -969,7 +969,7 @@ const Home = () => {
                 ? "./line-design-red1.png"
                 : selectedBox === "toolstation"
                 ? "./line-design-red2.png"
-                : selectedBox === "solo"
+                : selectedBox === "solo-expenses"
                 ? "./line-design-red3.png"
                 : selectedBox === "cedevita"
                 ? "./line-design-red4.png"
@@ -1038,15 +1038,15 @@ const Home = () => {
             <content3>
               <div
                 className={`box-brand ${
-                  selectedBox === "solo" ? "open-brand" : ""
+                  selectedBox === "solo-expenses" ? "open-brand" : ""
                 }`}
-                onClick={() => handleBoxClick("solo")}
+                onClick={() => handleBoxClick("solo-expenses")}
               >
                 Solo.
                 <img src="./crossarr-w.png" />
               </div>
             </content3>
-            {selectedBox === "solo" && (
+            {selectedBox === "solo-expenses" && (
               <>
                 <div className="box-des w-fit sm:w-[90%] text-base sm:text-lg">
                   Lorem ipsum dolor sit amet. Qui cumque deleniti sed maxime

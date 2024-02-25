@@ -1152,7 +1152,7 @@ const NavbarAndFullscreenMenu = () => {
            items-center yellow"
         >
           <h1 className=" text-5xl font-black  text-[#DF2323]">Our brands</h1>
-          <div className="flex flex-col items-center justify-between gap-8 pb-52 2xl:pb-44">
+          <div className="flex flex-col items-center justify-between gap-8 pb-32 2xl:pb-36">
             <div className="w-1/2 2xl:w-3/4">
               <a href="https://www.hudbil.com/">
                 <img
@@ -1175,9 +1175,6 @@ const NavbarAndFullscreenMenu = () => {
               </a>
             </div>
             <div className="w-2/5 2xl:w-1/2 mx-auto h-[2px] bg-[#FCAB64]"></div>
-            <div className="w-1/3 2xl:w-2/5">
-              <img src="./menu-img4.png" />
-            </div>
           </div>
         </div>
         <button id="close-menu" className="custom-close-button">
@@ -1192,9 +1189,8 @@ const NavbarAndFullscreenMenu = () => {
               style={{
                 marginTop: "10px",
                 marginLeft: "10px",
-                width: "186px",
+                width: "166px",
                 height: "51px",
-                background: "#D9D9D9",
                 borderRadius: "60px",
                 display: "flex",
                 paddingTop: "3px",
@@ -1203,7 +1199,7 @@ const NavbarAndFullscreenMenu = () => {
             >
               <img
                 src="./expandedlogo.png"
-                style={{ width: "130px", height: "35px" }}
+                style={{ width: "120px", height: "35px" }}
               ></img>
             </div>
           </a>
