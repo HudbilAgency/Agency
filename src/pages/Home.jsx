@@ -394,11 +394,9 @@ const Home = () => {
       divider.classList.add("divider-small-screen");
     } else {
       divider.classList.remove("divider-small-screen");
-      if (logoImage && logoImage.offsetParent) {
-        const logoRect = logoImage.getBoundingClientRect();
-        const parentRect = logoImage.offsetParent.getBoundingClientRect();
-        const relativeLeft = logoRect.left - parentRect.left;
-        divider.style.width = `${relativeLeft}px`;
+      if (logoImage) {
+        const logoOffsetLeft = logoImage.offsetLeft;
+        divider.style.width = `${logoOffsetLeft}px`;
       }
     }
   }
@@ -415,11 +413,9 @@ const Home = () => {
       divider2.classList.add("divider-small-screen2");
     } else {
       divider2.classList.remove("divider-small-screen2");
-      if (logoImage2 && logoImage2.offsetParent) {
-        const logoRect2 = logoImage2.getBoundingClientRect();
-        const parentRect2 = logoImage2.offsetParent.getBoundingClientRect();
-        const relativeLeft2 = logoRect2.left - parentRect2.left;
-        divider2.style.width = `${relativeLeft2}px`;
+      if (logoImage2) {
+        const logoOffsetLeft2 = logoImage2.offsetLeft;
+        divider2.style.width = `${logoOffsetLeft2}px`;
       }
     }
   }
@@ -436,16 +432,77 @@ const Home = () => {
       divider3.classList.add("divider-small-screen3");
     } else {
       divider3.classList.remove("divider-small-screen3");
-      if (logoImage3 && logoImage3.offsetParent) {
-        const logoRect3 = logoImage3.getBoundingClientRect();
-        const parentRect3 = logoImage3.offsetParent.getBoundingClientRect();
-        const relativeLeft3 = logoRect3.left - parentRect3.left;
-        divider3.style.width = `${relativeLeft3}px`;
+      if (logoImage3) {
+        const logoOffsetLeft3 = logoImage3.offsetLeft;
+        divider3.style.width = `${logoOffsetLeft3}px`;
       }
     }
   }
   window.addEventListener("load", adjustDividerWidth3);
   window.addEventListener("resize", adjustDividerWidth3);
+
+  // function adjustDividerWidth() {
+  //   const logoImage = document.querySelector(".sec1-logo-image");
+  //   const divider = document.querySelector(".page7-liner1");
+
+  //   if (!divider) return;
+
+  //   if (window.innerWidth < 1024) {
+  //     divider.classList.add("divider-small-screen");
+  //   } else {
+  //     divider.classList.remove("divider-small-screen");
+  //     if (logoImage && logoImage.offsetParent) {
+  //       const logoRect = logoImage.getBoundingClientRect();
+  //       const parentRect = logoImage.offsetParent.getBoundingClientRect();
+  //       const relativeLeft = logoRect.left - parentRect.left;
+  //       divider.style.width = `${relativeLeft}px`;
+  //     }
+  //   }
+  // }
+  // window.addEventListener("load", adjustDividerWidth);
+  // window.addEventListener("resize", adjustDividerWidth);
+
+  // function adjustDividerWidth2() {
+  //   const logoImage2 = document.querySelector(".sec2-logo-image");
+  //   const divider2 = document.querySelector(".page7-liner2");
+
+  //   if (!divider2) return;
+
+  //   if (window.innerWidth < 1024) {
+  //     divider2.classList.add("divider-small-screen2");
+  //   } else {
+  //     divider2.classList.remove("divider-small-screen2");
+  //     if (logoImage2 && logoImage2.offsetParent) {
+  //       const logoRect2 = logoImage2.getBoundingClientRect();
+  //       const parentRect2 = logoImage2.offsetParent.getBoundingClientRect();
+  //       const relativeLeft2 = logoRect2.left - parentRect2.left;
+  //       divider2.style.width = `${relativeLeft2}px`;
+  //     }
+  //   }
+  // }
+  // window.addEventListener("load", adjustDividerWidth2);
+  // window.addEventListener("resize", adjustDividerWidth2);
+
+  // function adjustDividerWidth3() {
+  //   const logoImage3 = document.querySelector(".sec3-logo-image");
+  //   const divider3 = document.querySelector(".page7-liner3");
+
+  //   if (!divider3) return;
+
+  //   if (window.innerWidth < 1024) {
+  //     divider3.classList.add("divider-small-screen3");
+  //   } else {
+  //     divider3.classList.remove("divider-small-screen3");
+  //     if (logoImage3 && logoImage3.offsetParent) {
+  //       const logoRect3 = logoImage3.getBoundingClientRect();
+  //       const parentRect3 = logoImage3.offsetParent.getBoundingClientRect();
+  //       const relativeLeft3 = logoRect3.left - parentRect3.left;
+  //       divider3.style.width = `${relativeLeft3}px`;
+  //     }
+  //   }
+  // }
+  // window.addEventListener("load", adjustDividerWidth3);
+  // window.addEventListener("resize", adjustDividerWidth3);
 
   // function adjustDividerWidth() {
   //   const logoImage = document.querySelector('.sec1-logo-image');
@@ -1169,7 +1226,7 @@ const Home = () => {
           Regardless of your operation’s size, collaboration toward a shared
           goal leads to success.
         </div>
-        <div className="page7-main flex flex-col mt-10 max-w-full w-fit lg:w-full text-left relative gap-12">
+        <div className="page7-main flex flex-col mt-10 2xl:mt-20 max-w-full w-fit lg:w-full text-left relative gap-12">
           {/* Section 1 */}
           <div
             className="section1  lg:w-4/5 relative"
@@ -1179,11 +1236,11 @@ const Home = () => {
               FRANCHISES
             </div>
             <div className="page7-divider page7-liner1 overflow-hidden h-px bg-gray-300 mt-4"></div>
-            <div className="sec-logo hidden md:flex">
+            <div className="sec-logo">
               <img
                 src="./sec1-logo.png"
                 alt="Franchises"
-                className="sec1-logo-image animationLogo w-0 h-0 md:w-80 md:h-80 absolute right-[0%] top-[40%]"
+                className="sec1-logo-image animationLogo w-0 h-0 md:w-80 md:h-80 absolute right-[0%] top-[40%] 2xl:top-[30%]"
               />
             </div>
             <div className="sec-desc1 lg:w-1/2 mt-2 text-white font-poppins font-normal text-base text-base sm:text-lg leading-relaxed">
@@ -1209,7 +1266,7 @@ const Home = () => {
               <img
                 src="./sec2-logo.png"
                 alt="Franchises"
-                className="sec2-logo-image animationLogo w-60 h-60 md:w-80 md:h-80 absolute right-[0%] top-[40%]"
+                className="sec2-logo-image animationLogo w-60 h-60 md:w-80 md:h-80 absolute right-[0%] top-[40%] 2xl:top-[31%]"
               />
             </div>
             <div className="sec-desc2 lg:w-1/2 mt-2 text-white font-poppins font-normal text-base sm:text-lg leading-relaxed">
@@ -1235,7 +1292,7 @@ const Home = () => {
               <img
                 src="./sec3-logo.png"
                 alt="Franchises"
-                className="sec3-logo-image animationLogo w-60 h-60 md:w-80 md:h-80 absolute right-[0%] top-[40%]"
+                className="sec3-logo-image animationLogo w-60 h-60 md:w-80 md:h-80 absolute right-[0%] top-[40%] 2xl:top-[30%]"
               />
             </div>
             <div className="sec-desc3 lg:w-1/2 mt-2 text-white font-poppins font-normal text-base sm:text-lg leading-relaxed">
